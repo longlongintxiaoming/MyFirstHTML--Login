@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      h1{
+          width: 50%;
+          margin: auto;
+          text-align: center;
+      }
+        .text{
+            position: relative;
+            left: 700px;
+        }
+      .text1{
+          position: relative;
+          left: 700px;
+          bottom: 34px;
+      }
+        .one{
+            position: relative;
+            left: 800px;
+        }
+        .one1{
+            position: relative;
+            left: 816px;
+        }
+        .one2{
+            position: relative;
+            left: 784px;
+        }
+
+        .submit{
+            position: relative;
+            left: 900px;
+        }
+    </style>
+</head>
+<body>
+
+         <h1>用户注册</h1>
+         <form>
+             <label class="text">用户名</label>
+             <input class="one"  type="text" name="用户名" placeholder="4-10英文字母或数字"/>
+             <br/>
+             <label class="text">密码</label>
+             <input class="one1" type="password" name="密码" placeholder="8-12英文字母或数字">
+             <br/>
+             <label class="text">确认密码 </label>
+             <input class="one2" type="password" name="确认密码"  placeholder="确认密码">
+             <br/>
+             <label class="text">电子邮件</label>
+             <input class="one2" type="text"  name="电子邮件" placeholder="电子邮件">
+             <br>
+             <label class="text">性别</label>
+             <input class="one1" type="radio" name="sex" id="man">
+             <label class="one1"  for="man">男</label>
+             <input class="one1" type="radio" name="sex" id="woman">
+             <label class="one1"  for="woman">女</label>
+             <br/>
+             <label class="text">兴趣爱好</label>
+             <input class="one2" type="checkbox" name="checkbox1">
+             <label class="one2">下棋</label>
+             <input class="one2" type="checkbox" name="checkbox2">
+             <label class="one2">游泳</label>
+             <input class="one2" type="checkbox" name="checkbox3">
+             <label class="one2">旅游</label>
+             <input class="one2" type="checkbox" name="checkbox4">
+             <label class="one2">打球</label>
+             <br/>
+             <label class="text">兴趣爱好</label>
+             <select class="one2">
+                 <option selected="selected">销售部</option>
+             </select>
+             <br/>
+             <label class="text1">人生格言</label>
+             <textarea class="one2" rows="3" cols="50">这家伙很懒，什么都未留下</textarea>
+             <br/>
+             <input class="submit" type="submit" value="提交">
+             <input class="submit" type="reset" value="重置">
+         </form>
+</body>
+</html>
